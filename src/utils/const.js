@@ -1,0 +1,3 @@
+export const DEPARTMENT_LAT = -38.987633599520294;
+export const DEPARTMENT_LONG =-61.28717664514791;
+export const ZOOM_MAP = 19;
