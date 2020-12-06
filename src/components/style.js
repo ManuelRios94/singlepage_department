@@ -1,6 +1,6 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
-const AppContainer = styled.div`
+export const AppContainer = styled.div`
 
 `
 AppContainer.displayName = AppContainer;

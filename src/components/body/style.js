@@ -1,6 +1,6 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
-const BodyContainer = styled.div`
+export const BodyContainer = styled.div`
 
 `
 BodyContainer.displayName = BodyContainer;
