@@ -3,7 +3,6 @@ import Body from "./body";
 import Footer from "./footer";
 import {AppContainer} from "./style";
 
-
 const App = () => {
   return (
     <AppContainer>
