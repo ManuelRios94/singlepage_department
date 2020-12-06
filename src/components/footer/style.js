@@ -1,6 +1,6 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
-const FooterContainer = styled.div`
+export const FooterContainer = styled.div`
 
 `
 FooterContainer.displayName = FooterContainer;
