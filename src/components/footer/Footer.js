@@ -6,7 +6,7 @@ const Footer = () => {
       <FooterContainer>
         <Navbar bg="dark" variant="dark">
         <Navbar.Text>
-          &copy; {new Date().getFullYear()} Copyright: Manuel Igancio Rios
+          &copy; {new Date().getFullYear()} Copyright: Manuel Ignacio Rios
         </Navbar.Text>
         </Navbar>
       </FooterContainer>
