@@ -1,31 +1,16 @@
-import {MapContainer} from "./style";
-import GoogleMapReact from 'google-map-react';
 import {DEPARTMENT_LAT, DEPARTMENT_LONG, ZOOM_MAP} from "../../../utils/const";
-import Marker from "./marker";
+import MarkerMap from "./marker-map";
+import { MapContainer, TileLayer } from "react-leaflet";
 
 const Map = () => {
-
-    const defaultProps = {
-        center: {
-          lat: DEPARTMENT_LAT,
-          lng: DEPARTMENT_LONG
-        },
-        zoom: ZOOM_MAP
-    };
-
     return (
-      <MapContainer style={{ height: '70vh', width: '100%' }}>
-        <GoogleMapReact
-          bootstrapURLKeys={{ key: process.env.GOOGLE_API_KEY }}
-          defaultCenter={defaultProps.center}
-          defaultZoom={defaultProps.zoom}
-        >
-          <Marker
-            lat={DEPARTMENT_LAT}
-            lng={DEPARTMENT_LONG}
+        <MapContainer center={[DEPARTMENT_LAT, DEPARTMENT_LONG]} zoom={ZOOM_MAP} scrollWheelZoom={false} style={{ height: '70vh', width: '100%' }}>
+          <TileLayer
+            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
-        </GoogleMapReact>
-      </MapContainer>
+          <MarkerMap lat={DEPARTMENT_LAT} long={DEPARTMENT_LONG}/>
+        </MapContainer>
     );
   }
   
