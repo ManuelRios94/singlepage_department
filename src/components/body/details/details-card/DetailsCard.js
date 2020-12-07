@@ -11,8 +11,12 @@ import { FaToilet, FaWifi, FaSatelliteDish, FaUmbrellaBeach, FaBed, FaBreadSlice
 import { SiDiscogs } from 'react-icons/si';
 import { FiMonitor } from 'react-icons/fi';
 import { RiFridgeFill } from 'react-icons/ri';
-import BalconIco from "../../../../assets/img/Balcon.png"
-import MateIco from "../../../../assets/img/Mate.png"
+import BalconIco from "../../../../assets/img/Balcon.png";
+import MateIco from "../../../../assets/img/Mate.png";
+import MicroondasIco from "../../../../assets/img/Microondas.png";
+import PlanchaIco from "../../../../assets/img/Plancha.png";
+import SecadorIco from "../../../../assets/img/Secador.png";
+import VentiladorIco from "../../../../assets/img/Ventilador.png";
 
 const DetailsCard = () => {
     return (
@@ -84,6 +88,30 @@ const DetailsCard = () => {
                     <Col>
                         <BoxIconText text="Tostadora">
                             <FaBreadSlice size={50}/>
+                        </BoxIconText>
+                    </Col>
+                    <Col>
+                        <BoxIconText text="Ventilador de Techo en Living y Piezas">
+                            <Image src={VentiladorIco} width="50" height="50"/>
+                        </BoxIconText>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <BoxIconText text="Microondas">
+                            <Image src={MicroondasIco} width="50" height="50"/>
+                        </BoxIconText>
+                    </Col>
+                    <Col>
+                        <BoxIconText text="Secador de Pelo">
+                            <Image src={SecadorIco} width="50" height="50"/>
+                        </BoxIconText>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <BoxIconText text="Plancha">
+                            <Image src={PlanchaIco} width="50" height="50"/>
                         </BoxIconText>
                     </Col>
                     <Col/>
