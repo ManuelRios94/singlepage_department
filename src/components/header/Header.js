@@ -12,9 +12,9 @@ const Header = () => {
             <Image src={Logo} roundedCircle width="50" height="50"/>
           </Navbar.Brand>
           <Nav className="mr-auto">
-            <Nav.Link href="#details">Detalles</Nav.Link>
-            <Nav.Link href="#galery">Galería</Nav.Link>
+            <Nav.Link href="#details">Detalles</Nav.Link>            
             <Nav.Link href="#localization">Localización</Nav.Link>
+            <Nav.Link href="#contact">Contacto</Nav.Link>
           </Nav>
         </Navbar>
       </HeaderContainer>

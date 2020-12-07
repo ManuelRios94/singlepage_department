@@ -21,7 +21,7 @@ const DetailsCard = () => {
             <Card.Title>El Faro</Card.Title>
             <Card.Subtitle className="mb-2 text-muted">Faro Recalada 20, Monte Hermoso, Buenos Aires, Argentina</Card.Subtitle>
             <Card.Text>
-            Departamento en pleno centro. Tercer piso balcon a la calle con ascensor. Espectacular vista panoramica. A media cuadra de peatonal Dufaurd y 2 de la playa.
+            Departamento en pleno centro. Tercer piso balcon a la calle con ascensor. Espectacular vista panoramica. A media cuadra de peatonal Dufaur y 2 de la playa.
             </Card.Text>
         </Card.Header>
         <Card.Body>
@@ -117,7 +117,7 @@ const DetailsCard = () => {
                         </BoxIconText>
                     </Col>
                     <Col>
-                        <BoxIconText text="En frente de Margarita   ">
+                        <BoxIconText text="Enfrente de Margarita   ">
                             <SiDiscogs size={50}/>
                         </BoxIconText>
                     </Col>
