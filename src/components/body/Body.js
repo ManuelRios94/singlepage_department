@@ -2,6 +2,7 @@ import {BodyContainer} from "./style";
 import GalleryCarousel from "./gallery-carousel";
 import TitleRefleaction from "../common/title-reflection";
 import Map from "./map";
+import Details from "./details";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
@@ -14,6 +15,19 @@ const Body = () => {
             <Col/>
             <Col xs={10}>
               <GalleryCarousel />
+              </Col>
+            <Col/>
+          </Row>
+          <br/>
+          <Row id="details">
+            <Col>
+            <TitleRefleaction text="Detalles" />
+            </Col>
+          </Row>
+          <Row >
+            <Col/>
+            <Col xs={10}>
+              <Details />
               </Col>
             <Col/>
           </Row>
