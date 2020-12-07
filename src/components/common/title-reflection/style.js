@@ -13,7 +13,7 @@ TitleReflectionContainer.displayName = TitleReflectionContainer;
 export const TitleReflectionH1 = styled.h1`
     position: relative;
     font-family: 'Roboto', Arial, sans-serif;
-    font-size: calc(10px + 10vw);
+    font-size: calc(10px + 5vw);
     font-weight: 700;
     color: #f5f5f5;
     letter-spacing: 0.02em;
