@@ -1,15 +1,22 @@
-import {BoxIconTextContainer, IconContainer, Text} from "./style";
+import {BoxIconTextContainer, IconContainer, Text, TextLink} from "./style";
 
 
-const BoxIconText = ({text, children}) => {
+const BoxIconText = ({text, link = null, children}) => {
     return (
         <BoxIconTextContainer>
             <IconContainer>
                 {children}
             </IconContainer>
-            <Text>
-                {text}
-            </Text>
+            {
+                link !== null ?
+                <TextLink >
+                    <a href={link}>{text}</a>
+                </TextLink>
+                :
+                <Text>
+                    {text}
+                </Text>
+            }
         </BoxIconTextContainer>
     );
   }
