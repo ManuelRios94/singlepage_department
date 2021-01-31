@@ -11,3 +11,8 @@ export const BodyContainer = styled.div`
     background-size: cover;
 `
 BodyContainer.displayName = BodyContainer;
+
+export const Space = styled.div`
+    padding-bottom: 100px;
+`
+Space.displayName = Space;
