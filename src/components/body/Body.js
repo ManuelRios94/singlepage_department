@@ -1,9 +1,10 @@
-import {BodyContainer} from "./style";
+import {BodyContainer, Space} from "./style";
 import GalleryCarousel from "./gallery-carousel";
 import TitleRefleaction from "../common/title-reflection";
 import Map from "./map";
 import Details from "./details";
 import Contact from "./contact";
+import WeatherWidget from "./weather-widget";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
@@ -13,10 +14,21 @@ const Body = () => {
       <BodyContainer>
         <Container>
           <Row id="home">
+            <Space/>
+          </Row>
+          <Row >
+            <Col/>
+            <Col xs={10}>
+              <WeatherWidget />
+            </Col>
+            <Col/>
+          </Row>
+          <br/>
+          <Row >
             <Col/>
             <Col xs={10}>
               <GalleryCarousel />
-              </Col>
+            </Col>
             <Col/>
           </Row>
           <br/>
@@ -29,7 +41,7 @@ const Body = () => {
             <Col/>
             <Col xs={10}>
               <Details />
-              </Col>
+            </Col>
             <Col/>
           </Row>
           <br/>
