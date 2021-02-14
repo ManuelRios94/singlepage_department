@@ -1,3 +1,3 @@
-import WeatherWidget from "./WeatherWidget";
+import WeatherWidget from './WeatherWidget';
 
 export default WeatherWidget;

@@ -1,3 +1,3 @@
-import MarkerMap from "./MarkerMap";
+import MarkerMap from './MarkerMap';
 
 export default MarkerMap;

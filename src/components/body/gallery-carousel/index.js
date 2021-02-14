@@ -1,3 +1,3 @@
-import GalleryCarousel from "./GalleryCarousel";
+import GalleryCarousel from './GalleryCarousel';
 
 export default GalleryCarousel;

@@ -1,3 +1,3 @@
-import BoxIconText from "./BoxIconText";
+import BoxIconText from './BoxIconText';
 
 export default BoxIconText;
